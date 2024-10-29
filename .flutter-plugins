@@ -1,4 +1,7 @@
 # This is a generated file; do not edit or check into version control.
+app_links=/Users/terencio/.pub-cache/hosted/pub.dev/app_links-6.3.2/
+app_links_linux=/Users/terencio/.pub-cache/hosted/pub.dev/app_links_linux-1.0.3/
+app_links_web=/Users/terencio/.pub-cache/hosted/pub.dev/app_links_web-1.0.4/
 connectivity_plus=/Users/terencio/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.0/
 file_picker=/Users/terencio/.pub-cache/hosted/pub.dev/file_picker-8.1.3/
 file_selector_linux=/Users/terencio/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.3/
@@ -14,6 +17,7 @@ flutter_local_notifications=/Users/terencio/.pub-cache/hosted/pub.dev/flutter_lo
 flutter_local_notifications_linux=/Users/terencio/.pub-cache/hosted/pub.dev/flutter_local_notifications_linux-4.0.1/
 flutter_native_splash=/Users/terencio/.pub-cache/hosted/pub.dev/flutter_native_splash-2.4.1/
 flutter_plugin_android_lifecycle=/Users/terencio/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.22/
+gtk=/Users/terencio/.pub-cache/hosted/pub.dev/gtk-2.1.0/
 image_picker=/Users/terencio/.pub-cache/hosted/pub.dev/image_picker-1.1.2/
 image_picker_android=/Users/terencio/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+12/
 image_picker_for_web=/Users/terencio/.pub-cache/hosted/pub.dev/image_picker_for_web-3.0.6/
