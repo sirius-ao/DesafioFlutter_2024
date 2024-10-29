@@ -40,7 +40,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             if (state is AuthFailureState) {
               showSnackBar(context, state.message);
             }else if(state is AuthSuccessState){
-              //Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => const BlogScreen()), (route) => false);
+              RoutePath.project.pushAndRemoveUntil(context);
             }
           },
           builder: (context, state) {

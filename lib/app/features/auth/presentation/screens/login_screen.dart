@@ -36,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
             if (state is AuthFailureState) {
               showSnackBar(context, state.message);
             }else if(state is AuthSuccessState){
-              RoutePath.home.pushAndRemoveUntil(context);
+              RoutePath.project.pushAndRemoveUntil(context);
             }
           },
           builder: (context, state) {

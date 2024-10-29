@@ -5,16 +5,25 @@ import 'package:project_management_app/app/core/constants/app_colors.dart';
 import 'package:project_management_app/app/core/enums/route_path.dart';
 import 'package:project_management_app/app/features/auth/presentation/screens/login_screen.dart';
 import 'package:project_management_app/app/features/auth/presentation/screens/sign_up_screen.dart';
+import 'package:project_management_app/app/features/project/presentation/screens/add_new_project_screen.dart';
+import 'package:project_management_app/app/features/project/presentation/screens/project_screen.dart';
+import 'package:project_management_app/app/features/project/presentation/screens/project_viewer_screen.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     final args = settings.arguments as Map<String, dynamic>?;
     if(settings.name == RoutePath.home.path){
-      return _buildRoute(settings, Container());
+      return _buildRoute(settings, const ProjectScreen(), needsAuth: true);
     }else if(settings.name == RoutePath.signIn.path) {
        return _buildRoute(settings, const LoginScreen());
     }else if(settings.name == RoutePath.signUp.path) {
        return _buildRoute(settings, const SignUpScreen());
+    }else if(settings.name == RoutePath.project.path) {
+       return _buildRoute(settings, const ProjectScreen(), needsAuth: true);
+    }else if(settings.name == RoutePath.addProject.path) {
+       return _buildRoute(settings, const AddNewProjectScreen(), needsAuth: true);
+    }else if(settings.name == RoutePath.showProject.path) {
+       return _buildRoute(settings, ProjectViewerScreen(project: args?['project']), needsAuth: true);
     }else{
       return _errorRoute();
     }   

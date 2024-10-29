@@ -8,7 +8,9 @@ enum RoutePath {
   verifyCode('/verify/code'),
   resetPassWord('/reset/password'),
   contact('/contact'),
-  showProject('show/project');
+  showProject('show/project'),
+  project('/project'),
+  addProject('add/project');
 
   const RoutePath(
     this.path,
