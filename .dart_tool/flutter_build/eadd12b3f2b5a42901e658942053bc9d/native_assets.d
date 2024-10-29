@@ -1,0 +1,1 @@
+ /Users/terencio/Documents/WorkSpaceNovaDev/DesafioFlutter_2024/.dart_tool/flutter_build/eadd12b3f2b5a42901e658942053bc9d/native_assets.yaml: 
